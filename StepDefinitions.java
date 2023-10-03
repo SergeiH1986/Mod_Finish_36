@@ -176,8 +176,7 @@ public class StepDefinitions {
         String text = webDriver.findElement(By.xpath(PYTHON)).getText();
         Assert.assertEquals(text, "Python");
     }
-
-
+    
     @Test
     public void Test_16() {
         OS_PAGE.start();
